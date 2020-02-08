@@ -7,7 +7,7 @@ def decrypt(inpu):
   for i in range(inpu.__len__()//2):
       d.append(inpu[c]+inpu[c+1])
       c += 2
-  return di
+  return d
 def creategenome(num):
   output = ''
   for i in range(num):
