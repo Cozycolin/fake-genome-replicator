@@ -1,5 +1,7 @@
 from transverter import *
 from genomecreator import *
+from symbol_interaction import *
+from deinteraction import *
 letters = ["A","B","C"]
 a = input(">>>")
 # the code is 2 letters long
